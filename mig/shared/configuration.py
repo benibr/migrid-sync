@@ -266,7 +266,7 @@ def fix_missing(config_file, verbose=True):
         'user_chkuserroot_log': 'chkchroot.log',
         'user_chksidroot_log': 'chkchroot.log',
         'user_openid_address': fqdn,
-        'user_openid_port': 8443,
+        'user_openid_port': 443,
         'user_openid_key': '~/certs/combined.pem',
         'user_openid_auth': ['password'],
         'user_openid_alias': '',
